@@ -1,24 +1,37 @@
 @charset "utf-8";
 body {
+  width: 400px;
+  height: 450px;
   margin: 0;
 }
 .flex {
   display: flex;
 }
-.red--box {
+.red{
   width: 400px;
   height: 100px;
   margin: 0px;
   background: #ff0000;
 }
-.green--box {
+.clearfix::after{
+content: "";
+display: block;
+clear: both;
+}
+.green {
   width: 150px;
   height: 250px;
   background: #00ff1e;
+  float: left;
 }
-.gray--box {
-  width: 300px;
-  height: 300px;
-  padding: 50px;
-  background: gray;
+.blue{
+  width: 250px;
+  height: 250px;
+  background: #3300ff;
+  float:right ;
+}
+.yellow{
+  width: 400px;
+  height: 100px;
+  background: #ffe600;
 }
