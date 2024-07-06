@@ -23,7 +23,8 @@ clear: both;
   height: 250px;
   background: #00ff1e;
   float: left;
-}yellow{
+}
+.yellow{
   width: 400px;
   height: 100px;
   background: #ffe600;
