@@ -52,8 +52,28 @@ box-sizing: border-box;
   height: 250px;
   background: #8c2727;
   float: right;
+  position:relative;
+}
+
+.box{
+  display: flex;
+  flex-direction: column;
+  width: 160px;
+  height: 180px;
+  position:absolute;
+  top:135px;
+  left:185px;
 
 }
+
+.orange{
+  width: 150px;
+  height: 50px;
+  background: #ff863f;
+  border:solid 5px ;
+  border-color: #ffffff;
+  margin: 5px;
+  }
 .yellow{
   width: 400px;
   height: 100px;
