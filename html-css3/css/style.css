@@ -4,46 +4,52 @@ body {
   height: 450px;
   margin: 0;
 }
-.flex {
-  display: flex;
+*{
+box-sizing: border-box;
 }
 .red{
   width: 400px;
   height: 100px;
   background: #ff0000;
+  position:relative;
+
 }
+
+.white-box{
+  display: flex;
+  width: 160px;
+  height: 60px;
+  background: #ffffff;
+  position:absolute;
+  top:20px;
+  left:220px;
+  padding: 5px;
+}
+
+.purple{
+  width: 40px;
+  height: 40px;
+  background: #a9004b;
+  margin: auto;
+}
+
+
 .clearfix::after{
-content: "";
-display: block;
-clear: both;
-}
+  content: "";
+  display: block;
+  clear: both;
+  }
+
 .green {
   width: 150px;
   height: 250px;
   background: #00ff51;
   float: left;
 }
-.purple{
-  width: 150px;
-  height: 50px;
-  background: #cc00db;
-  float: left;
-}
-.blue{
-  width: 150px;
-  height: 100px;
-  background: #0093b7;
-  float:left ;
-}
-.orange{
-  width: 100px;
-  height: 150px;
-  background: #ff9e6b;
-  float: right;
-}
+
 .brown{
   width: 250px;
-  height: 100px;
+  height: 250px;
   background: #8c2727;
   float: right;
 
@@ -51,5 +57,5 @@ clear: both;
 .yellow{
   width: 400px;
   height: 100px;
-  background: #ffe600;
+  background: #ffd600;
 }
